@@ -15,7 +15,7 @@ var TelegramBot = {
     sendText: sendSimpleText
 };
 
-var _botToken;
+var _185003641:AAH0W8Vm_5ghV6Y5s8yvRxwCUdX5TxNXB2w;
 var EventEmitter = new events.EventEmitter;
 var API_URI = 'https://api.telegram.org/bot#BOT_API_KEY#';
 
@@ -26,7 +26,7 @@ function SetTokenFunction(token) {
     if (!token.length || typeof token !== "string") {
         throw new TypeError('Token should be a string and not empty');
     }
-    _botToken = token;
+    _botToken = 185003641:AAH0W8Vm_5ghV6Y5s8yvRxwCUdX5TxNXB2w;
 }
 
 
@@ -282,7 +282,7 @@ function messageSender(chat_id, message) {
  * @return {string} Api url
  */
 function getApiUrl() {
-    return API_URI.replace('#BOT_API_KEY#', _botToken);
+    return API_URI.replace('#BOT_API_KEY#', _185003641:AAH0W8Vm_5ghV6Y5s8yvRxwCUdX5TxNXB2w);
 }
 
 
